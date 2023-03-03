@@ -199,6 +199,7 @@ class RawmaterialsSerializer(ModelSerializer):
         model = Rawmaterials
         fields = ['pk', 'rm_name', 'rm_code','measured_unit', 'measured_unit_get', 'min_stock',
                   'rm_max_price', 'currency', 'currency_get', 'preferred_supplier']
+        read_only_fields = ['pk']
 
 
 class CountrySerializer(ModelSerializer):
