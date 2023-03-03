@@ -78,7 +78,7 @@ class PartiesSerializer(ModelSerializer):
             raise ValidationError("Party already exists")
         elif data['party_country'] and str(data['party_country'].country_name).lower() != 'india':
             print(data['party_country'])
-            data['party_state'] = ''
+            data['party_state'] = None
             data['party_GSTIN'] = ''
         return data
 

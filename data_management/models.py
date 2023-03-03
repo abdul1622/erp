@@ -112,7 +112,7 @@ rm_type_choices = [('semi_finished_goods', 'semi_finished_goods'),
 
 class ProductionPhases(models.Model):
     id = models.AutoField(primary_key=True)
-    phase_name = models.CharField(max_length=30, unique=True)
+    phase_name = models.CharField(max_length=100, unique=True)
 
     class Meta:
         verbose_name = "ProductionPhase"

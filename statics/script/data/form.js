@@ -292,7 +292,7 @@ form_data = {
             'required':true,
             'label':'Contact No',
             'mobile_no':true,
-            'oninput':'get_contact_no(this)',
+            // 'oninput':'get_contact_no(this)',
             'input':'input',
             'type':'number'
         },
@@ -311,7 +311,7 @@ form_data = {
         'party_GSTIN':{
             'required':true,
             'label':'GSTIN',
-            'input':'text',
+            'input':'input',
             'type':'text'
         },
         'party_country':{
