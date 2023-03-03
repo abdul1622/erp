@@ -235,8 +235,10 @@ function create_form(){
     
         }
         else{
-            dm_input = document.createElement('input')
-            dm_input.setAttribute('type', value['type'])
+            dm_input = document.createElement(value['input'])
+            if('type' in value){
+                dm_input.setAttribute('type', value['type'])
+            }
             dm_input.setAttribute('id',`form_${key}`)
             dm_input.setAttribute('class', 'form-control')
             currency_group = document.createElement('div')

@@ -128,10 +128,10 @@ class ProductionPhases(models.Model):
 
 class Product(models.Model):
     product_code = models.CharField(
-        unique=True, primary_key=True, max_length=30, default='id')
-    product_name = models.CharField(unique=True, max_length=30)
+        unique=True, primary_key=True, max_length=50, default='id')
+    product_name = models.CharField(unique=True, max_length=100)
     product_type = models.CharField(
-        max_length=30, choices=product_type_choices, default='finished')
+        max_length=50, choices=product_type_choices, default='finished')
     min_stock = models.IntegerField(default=100)
     maximum_price = models.IntegerField()
     minimum_price = models.IntegerField()
@@ -139,7 +139,7 @@ class Product(models.Model):
         Currency, on_delete=models.SET_NULL, null=True, blank=True)
     multiple_parts = models.BooleanField(default=False)
     parts = ArrayField(
-        models.CharField(max_length=35, blank=True),
+        models.CharField(max_length=50, blank=True),
         blank=True,
         default=list,
         null=True

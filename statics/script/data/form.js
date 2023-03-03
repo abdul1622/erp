@@ -42,8 +42,8 @@ form_data = {
         'address':{
             'required':true,
             'label':'Address',
-            'input':'input',
-            'type':'text'
+            'input':'textarea',
+            // 'type':'text'
         },
     },
     'department':{

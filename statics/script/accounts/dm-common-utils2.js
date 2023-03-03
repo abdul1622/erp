@@ -150,7 +150,7 @@ function department_change(element){
  }
  
  
- document.getElementById(`${model}Button`).setAttribute('onclick',`submit_data(${id})`)
+ document.getElementById(`${model}Button`).setAttribute('onclick',`submit_data('${id}')`)
  document.getElementById(`${model}Button`).innerHTML = `Update`
  }
  
