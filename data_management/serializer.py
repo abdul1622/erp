@@ -197,7 +197,7 @@ class RawmaterialsSerializer(ModelSerializer):
 
     class Meta:
         model = Rawmaterials
-        fields = ['pk', 'rm_name', 'measured_unit', 'measured_unit_get', 'min_stock',
+        fields = ['pk', 'rm_name', 'rm_code','measured_unit', 'measured_unit_get', 'min_stock',
                   'rm_max_price', 'currency', 'currency_get', 'preferred_supplier']
 
 
