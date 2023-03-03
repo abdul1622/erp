@@ -28,26 +28,29 @@ form_product = ''
     }).then(data =>{
         console.log(data,'daa')
         product_data = data.data;
-        table = ''
-        table += `<table class='table'><thead><tr>`
-        for(let [key,value] of Object.entries(product_form_data)){
-            table += `<th>${value['label']}</th>`
-        }
-        table += `</tr></thead><tbody>`
-        messages.innerHTML = ''
-        if(product_data.length){
-            product_data.forEach(element => {
-                table += `<tr id=${element.pk} onclick="get_bom('${element.pk}')">`
-                for(let [key,value] of Object.entries(product_form_data)){
-                    table += `<td>${element[key]}</td>`
-                }
-                table += `</tr>`
-            });
-        }
-        table += `</tbody></table>`
-        product_details_div.innerHTML = table
-
+        bm_create_table(product_data)
         })
+}
+
+function bm_create_table(filtered_product_data){
+    table = ''
+    table += `<table class='table'><thead><tr>`
+    for(let [key,value] of Object.entries(product_form_data)){
+        table += `<th>${value['label']}</th>`
+    }
+    table += `</tr></thead><tbody>`
+    messages.innerHTML = ''
+    if(filtered_product_data.length){
+        filtered_product_data.forEach(element => {
+            table += `<tr id=${element.pk} onclick="get_bom('${element.pk}')">`
+            for(let [key,value] of Object.entries(product_form_data)){
+                table += `<td>${element[key]}</td>`
+            }
+            table += `</tr>`
+        });
+    }
+    table += `</tbody></table>`
+    product_details_div.innerHTML = table
 }
 
 function get_bom(product_id){

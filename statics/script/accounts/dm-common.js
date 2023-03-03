@@ -85,15 +85,31 @@ model_li.setAttribute('id','active-li')
 function filter_data(element){
     lowerkeyword = element.value.toLowerCase()
 if(element.value){
-    displayArray = data_list.filter(obj =>  Object.keys(obj).some(key => (String(obj[key.toLowerCase()]).toLowerCase()).includes(lowerkeyword)))
+    if(model_name == 'billofmaterial' || model_name == 'productionflow'){
+        data_to_filter = product_data
+
+    }else{
+        data_to_filter = data_list
+    }
+    displayArray = data_to_filter.filter(obj =>  Object.keys(obj).some(key => (String(obj[key.toLowerCase()]).toLowerCase()).includes(lowerkeyword)))
 }else{
-    displayArray = data_list
+    displayArray = data_to_filter
 }
-if(displayArray.length){
+
+    if(model_name == 'billofmaterial' || model_name == 'productionflow'){
+        if(displayArray.length){
+        bm_create_table(displayArray)
+        }else{
+            product_details_div.innerHTML = ''
+        }
+    }else{
+        if(displayArray.length){
     container.innerHTML = create_table(displayArray,model_name,get_data,'common')
-}else{
-    container.innerHTML =''
-}
+        }else{
+            container.innerHTML =''
+        }
+    }
+
     console.log('filtered -data',displayArray)
 }
 
@@ -234,16 +250,16 @@ function create_form(){
                 currency_input.setAttribute('disabled','disabled')
                 currency_group.appendChild(currency_input)
             }
-            if('mobile_no' in value){
-                // input_group.setAttribute('class', 'form-group input-group')
-                code_input = document.createElement('select')
-                code_input.setAttribute('class','input-group-prepend')
-                code_input.setAttribute('id','form_number_code')
-                code_input.innerHTML = `<option value='91'>+91</options>`
-                // common_drop_down_get('currency','form_currency','currency_name')
-                // currency_input.setAttribute('disabled','disabled')
-                currency_group.appendChild(code_input)
-            }
+            // if('mobile_no' in value){
+            //     // input_group.setAttribute('class', 'form-group input-group')
+            //     code_input = document.createElement('select')
+            //     code_input.setAttribute('class','input-group-prepend')
+            //     code_input.setAttribute('id','form_number_code')
+            //     code_input.innerHTML = `<option value='91'>+91</options>`
+            //     // common_drop_down_get('currency','form_currency','currency_name')
+            //     // currency_input.setAttribute('disabled','disabled')
+            //     currency_group.appendChild(code_input)
+            // }
             currency_group.appendChild(dm_input)
             input_group.appendChild(currency_group)
         }

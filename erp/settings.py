@@ -140,9 +140,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'AxXI4vFgZkmWDpjIur7R',
-        'HOST': 'containers-us-west-35.railway.app',
-        'PORT': '5912',
+        'PASSWORD': 'aPS0htT2QCE2p5N7iN3U',
+        'HOST': 'containers-us-west-51.railway.app',
+        'PORT': '6176',
     }
 }
 
@@ -213,4 +213,4 @@ MEDIA_URL = '/media/'
 # Path where media is stored
 MEDIA_ROOT = os.path.join(BASE_DIR, 'statics/media/')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

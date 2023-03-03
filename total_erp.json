@@ -1,0 +1,2430 @@
+[
+    {
+        "model": "authtoken.token",
+        "pk": "c0319e0ea8202116d592bc50922e7ca5fea84469",
+        "fields": {
+            "user": "1",
+            "created": "2023-03-03T05:34:16.004Z"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add Token",
+            "content_type": 1,
+            "codename": "add_token"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change Token",
+            "content_type": 1,
+            "codename": "change_token"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete Token",
+            "content_type": 1,
+            "codename": "delete_token"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view Token",
+            "content_type": 1,
+            "codename": "view_token"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add token",
+            "content_type": 2,
+            "codename": "add_tokenproxy"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change token",
+            "content_type": 2,
+            "codename": "change_tokenproxy"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete token",
+            "content_type": 2,
+            "codename": "delete_tokenproxy"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view token",
+            "content_type": 2,
+            "codename": "view_tokenproxy"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 3,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 3,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 3,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 3,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 4,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 4,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 4,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 4,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 5,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 5,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 5,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 5,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 6,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 6,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 6,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 6,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 7,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 7,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 7,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 7,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add department",
+            "content_type": 8,
+            "codename": "add_department"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change department",
+            "content_type": 8,
+            "codename": "change_department"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete department",
+            "content_type": 8,
+            "codename": "delete_department"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view department",
+            "content_type": 8,
+            "codename": "view_department"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add user role",
+            "content_type": 9,
+            "codename": "add_userrole"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change user role",
+            "content_type": 9,
+            "codename": "change_userrole"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete user role",
+            "content_type": 9,
+            "codename": "delete_userrole"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view user role",
+            "content_type": 9,
+            "codename": "view_userrole"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add sub_division",
+            "content_type": 10,
+            "codename": "add_sub_division"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change sub_division",
+            "content_type": 10,
+            "codename": "change_sub_division"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete sub_division",
+            "content_type": 10,
+            "codename": "delete_sub_division"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view sub_division",
+            "content_type": 10,
+            "codename": "view_sub_division"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add branch",
+            "content_type": 11,
+            "codename": "add_branch"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change branch",
+            "content_type": 11,
+            "codename": "change_branch"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete branch",
+            "content_type": 11,
+            "codename": "delete_branch"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view branch",
+            "content_type": 11,
+            "codename": "view_branch"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 12,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 12,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 12,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 12,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add Country",
+            "content_type": 13,
+            "codename": "add_country"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change Country",
+            "content_type": 13,
+            "codename": "change_country"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete Country",
+            "content_type": 13,
+            "codename": "delete_country"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view Country",
+            "content_type": 13,
+            "codename": "view_country"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 53,
+        "fields": {
+            "name": "Can add currency",
+            "content_type": 14,
+            "codename": "add_currency"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 54,
+        "fields": {
+            "name": "Can change currency",
+            "content_type": 14,
+            "codename": "change_currency"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 55,
+        "fields": {
+            "name": "Can delete currency",
+            "content_type": 14,
+            "codename": "delete_currency"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 56,
+        "fields": {
+            "name": "Can view currency",
+            "content_type": 14,
+            "codename": "view_currency"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 57,
+        "fields": {
+            "name": "Can add measured units",
+            "content_type": 15,
+            "codename": "add_measuredunits"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 58,
+        "fields": {
+            "name": "Can change measured units",
+            "content_type": 15,
+            "codename": "change_measuredunits"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 59,
+        "fields": {
+            "name": "Can delete measured units",
+            "content_type": 15,
+            "codename": "delete_measuredunits"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 60,
+        "fields": {
+            "name": "Can view measured units",
+            "content_type": 15,
+            "codename": "view_measuredunits"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 61,
+        "fields": {
+            "name": "Can add PartyType",
+            "content_type": 16,
+            "codename": "add_partytype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 62,
+        "fields": {
+            "name": "Can change PartyType",
+            "content_type": 16,
+            "codename": "change_partytype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 63,
+        "fields": {
+            "name": "Can delete PartyType",
+            "content_type": 16,
+            "codename": "delete_partytype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 64,
+        "fields": {
+            "name": "Can view PartyType",
+            "content_type": 16,
+            "codename": "view_partytype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 65,
+        "fields": {
+            "name": "Can add Product",
+            "content_type": 17,
+            "codename": "add_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 66,
+        "fields": {
+            "name": "Can change Product",
+            "content_type": 17,
+            "codename": "change_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 67,
+        "fields": {
+            "name": "Can delete Product",
+            "content_type": 17,
+            "codename": "delete_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 68,
+        "fields": {
+            "name": "Can view Product",
+            "content_type": 17,
+            "codename": "view_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 69,
+        "fields": {
+            "name": "Can add ProductionPhase",
+            "content_type": 18,
+            "codename": "add_productionphases"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 70,
+        "fields": {
+            "name": "Can change ProductionPhase",
+            "content_type": 18,
+            "codename": "change_productionphases"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 71,
+        "fields": {
+            "name": "Can delete ProductionPhase",
+            "content_type": 18,
+            "codename": "delete_productionphases"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 72,
+        "fields": {
+            "name": "Can view ProductionPhase",
+            "content_type": 18,
+            "codename": "view_productionphases"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 73,
+        "fields": {
+            "name": "Can add state",
+            "content_type": 19,
+            "codename": "add_state"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 74,
+        "fields": {
+            "name": "Can change state",
+            "content_type": 19,
+            "codename": "change_state"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 75,
+        "fields": {
+            "name": "Can delete state",
+            "content_type": 19,
+            "codename": "delete_state"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 76,
+        "fields": {
+            "name": "Can view state",
+            "content_type": 19,
+            "codename": "view_state"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 77,
+        "fields": {
+            "name": "Can add Rawmaterial",
+            "content_type": 20,
+            "codename": "add_rawmaterials"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 78,
+        "fields": {
+            "name": "Can change Rawmaterial",
+            "content_type": 20,
+            "codename": "change_rawmaterials"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 79,
+        "fields": {
+            "name": "Can delete Rawmaterial",
+            "content_type": 20,
+            "codename": "delete_rawmaterials"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 80,
+        "fields": {
+            "name": "Can view Rawmaterial",
+            "content_type": 20,
+            "codename": "view_rawmaterials"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 81,
+        "fields": {
+            "name": "Can add productivity",
+            "content_type": 21,
+            "codename": "add_productivity"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 82,
+        "fields": {
+            "name": "Can change productivity",
+            "content_type": 21,
+            "codename": "change_productivity"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 83,
+        "fields": {
+            "name": "Can delete productivity",
+            "content_type": 21,
+            "codename": "delete_productivity"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 84,
+        "fields": {
+            "name": "Can view productivity",
+            "content_type": 21,
+            "codename": "view_productivity"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 85,
+        "fields": {
+            "name": "Can add ProductionFlow",
+            "content_type": 22,
+            "codename": "add_productionflow"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 86,
+        "fields": {
+            "name": "Can change ProductionFlow",
+            "content_type": 22,
+            "codename": "change_productionflow"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 87,
+        "fields": {
+            "name": "Can delete ProductionFlow",
+            "content_type": 22,
+            "codename": "delete_productionflow"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 88,
+        "fields": {
+            "name": "Can view ProductionFlow",
+            "content_type": 22,
+            "codename": "view_productionflow"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 89,
+        "fields": {
+            "name": "Can add Party",
+            "content_type": 23,
+            "codename": "add_parties"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 90,
+        "fields": {
+            "name": "Can change Party",
+            "content_type": 23,
+            "codename": "change_parties"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 91,
+        "fields": {
+            "name": "Can delete Party",
+            "content_type": 23,
+            "codename": "delete_parties"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 92,
+        "fields": {
+            "name": "Can view Party",
+            "content_type": 23,
+            "codename": "view_parties"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 93,
+        "fields": {
+            "name": "Can add BillOfMaterial",
+            "content_type": 24,
+            "codename": "add_billofmaterials"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 94,
+        "fields": {
+            "name": "Can change BillOfMaterial",
+            "content_type": 24,
+            "codename": "change_billofmaterials"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 95,
+        "fields": {
+            "name": "Can delete BillOfMaterial",
+            "content_type": 24,
+            "codename": "delete_billofmaterials"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 96,
+        "fields": {
+            "name": "Can view BillOfMaterial",
+            "content_type": 24,
+            "codename": "view_billofmaterials"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 97,
+        "fields": {
+            "name": "Can add Production Order",
+            "content_type": 25,
+            "codename": "add_productionorder"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 98,
+        "fields": {
+            "name": "Can change Production Order",
+            "content_type": 25,
+            "codename": "change_productionorder"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 99,
+        "fields": {
+            "name": "Can delete Production Order",
+            "content_type": 25,
+            "codename": "delete_productionorder"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 100,
+        "fields": {
+            "name": "Can view Production Order",
+            "content_type": 25,
+            "codename": "view_productionorder"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 101,
+        "fields": {
+            "name": "Can add transfer_request_type",
+            "content_type": 26,
+            "codename": "add_transfer_request_type"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 102,
+        "fields": {
+            "name": "Can change transfer_request_type",
+            "content_type": 26,
+            "codename": "change_transfer_request_type"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 103,
+        "fields": {
+            "name": "Can delete transfer_request_type",
+            "content_type": 26,
+            "codename": "delete_transfer_request_type"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 104,
+        "fields": {
+            "name": "Can view transfer_request_type",
+            "content_type": 26,
+            "codename": "view_transfer_request_type"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 105,
+        "fields": {
+            "name": "Can add vehicle_deatails",
+            "content_type": 27,
+            "codename": "add_vehicle_deatails"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 106,
+        "fields": {
+            "name": "Can change vehicle_deatails",
+            "content_type": 27,
+            "codename": "change_vehicle_deatails"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 107,
+        "fields": {
+            "name": "Can delete vehicle_deatails",
+            "content_type": 27,
+            "codename": "delete_vehicle_deatails"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 108,
+        "fields": {
+            "name": "Can view vehicle_deatails",
+            "content_type": 27,
+            "codename": "view_vehicle_deatails"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 109,
+        "fields": {
+            "name": "Can add WIP",
+            "content_type": 28,
+            "codename": "add_wip"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 110,
+        "fields": {
+            "name": "Can change WIP",
+            "content_type": 28,
+            "codename": "change_wip"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 111,
+        "fields": {
+            "name": "Can delete WIP",
+            "content_type": 28,
+            "codename": "delete_wip"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 112,
+        "fields": {
+            "name": "Can view WIP",
+            "content_type": 28,
+            "codename": "view_wip"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 113,
+        "fields": {
+            "name": "Can add transfer_requests",
+            "content_type": 29,
+            "codename": "add_transfer_requests"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 114,
+        "fields": {
+            "name": "Can change transfer_requests",
+            "content_type": 29,
+            "codename": "change_transfer_requests"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 115,
+        "fields": {
+            "name": "Can delete transfer_requests",
+            "content_type": 29,
+            "codename": "delete_transfer_requests"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 116,
+        "fields": {
+            "name": "Can view transfer_requests",
+            "content_type": 29,
+            "codename": "view_transfer_requests"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 117,
+        "fields": {
+            "name": "Can add scrap_management",
+            "content_type": 30,
+            "codename": "add_scrap_management"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 118,
+        "fields": {
+            "name": "Can change scrap_management",
+            "content_type": 30,
+            "codename": "change_scrap_management"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 119,
+        "fields": {
+            "name": "Can delete scrap_management",
+            "content_type": 30,
+            "codename": "delete_scrap_management"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 120,
+        "fields": {
+            "name": "Can view scrap_management",
+            "content_type": 30,
+            "codename": "view_scrap_management"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 121,
+        "fields": {
+            "name": "Can add productivity_mgmt",
+            "content_type": 31,
+            "codename": "add_productivity_mgmt"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 122,
+        "fields": {
+            "name": "Can change productivity_mgmt",
+            "content_type": 31,
+            "codename": "change_productivity_mgmt"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 123,
+        "fields": {
+            "name": "Can delete productivity_mgmt",
+            "content_type": 31,
+            "codename": "delete_productivity_mgmt"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 124,
+        "fields": {
+            "name": "Can view productivity_mgmt",
+            "content_type": 31,
+            "codename": "view_productivity_mgmt"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 125,
+        "fields": {
+            "name": "Can add inventory_rawmaterial",
+            "content_type": 32,
+            "codename": "add_inventory_rawmaterial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 126,
+        "fields": {
+            "name": "Can change inventory_rawmaterial",
+            "content_type": 32,
+            "codename": "change_inventory_rawmaterial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 127,
+        "fields": {
+            "name": "Can delete inventory_rawmaterial",
+            "content_type": 32,
+            "codename": "delete_inventory_rawmaterial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 128,
+        "fields": {
+            "name": "Can view inventory_rawmaterial",
+            "content_type": 32,
+            "codename": "view_inventory_rawmaterial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 129,
+        "fields": {
+            "name": "Can add inventory_product",
+            "content_type": 33,
+            "codename": "add_inventory_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 130,
+        "fields": {
+            "name": "Can change inventory_product",
+            "content_type": 33,
+            "codename": "change_inventory_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 131,
+        "fields": {
+            "name": "Can delete inventory_product",
+            "content_type": 33,
+            "codename": "delete_inventory_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 132,
+        "fields": {
+            "name": "Can view inventory_product",
+            "content_type": 33,
+            "codename": "view_inventory_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 133,
+        "fields": {
+            "name": "Can add grn",
+            "content_type": 34,
+            "codename": "add_grn"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 134,
+        "fields": {
+            "name": "Can change grn",
+            "content_type": 34,
+            "codename": "change_grn"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 135,
+        "fields": {
+            "name": "Can delete grn",
+            "content_type": 34,
+            "codename": "delete_grn"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 136,
+        "fields": {
+            "name": "Can view grn",
+            "content_type": 34,
+            "codename": "view_grn"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 137,
+        "fields": {
+            "name": "Can add grn_items",
+            "content_type": 35,
+            "codename": "add_grn_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 138,
+        "fields": {
+            "name": "Can change grn_items",
+            "content_type": 35,
+            "codename": "change_grn_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 139,
+        "fields": {
+            "name": "Can delete grn_items",
+            "content_type": 35,
+            "codename": "delete_grn_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 140,
+        "fields": {
+            "name": "Can view grn_items",
+            "content_type": 35,
+            "codename": "view_grn_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 141,
+        "fields": {
+            "name": "Can add purchase_inquiry",
+            "content_type": 36,
+            "codename": "add_purchase_inquiry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 142,
+        "fields": {
+            "name": "Can change purchase_inquiry",
+            "content_type": 36,
+            "codename": "change_purchase_inquiry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 143,
+        "fields": {
+            "name": "Can delete purchase_inquiry",
+            "content_type": 36,
+            "codename": "delete_purchase_inquiry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 144,
+        "fields": {
+            "name": "Can view purchase_inquiry",
+            "content_type": 36,
+            "codename": "view_purchase_inquiry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 145,
+        "fields": {
+            "name": "Can add Purchase_request",
+            "content_type": 37,
+            "codename": "add_purchase_request"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 146,
+        "fields": {
+            "name": "Can change Purchase_request",
+            "content_type": 37,
+            "codename": "change_purchase_request"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 147,
+        "fields": {
+            "name": "Can delete Purchase_request",
+            "content_type": 37,
+            "codename": "delete_purchase_request"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 148,
+        "fields": {
+            "name": "Can view Purchase_request",
+            "content_type": 37,
+            "codename": "view_purchase_request"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 149,
+        "fields": {
+            "name": "Can add purchase_return",
+            "content_type": 38,
+            "codename": "add_purchase_return"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 150,
+        "fields": {
+            "name": "Can change purchase_return",
+            "content_type": 38,
+            "codename": "change_purchase_return"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 151,
+        "fields": {
+            "name": "Can delete purchase_return",
+            "content_type": 38,
+            "codename": "delete_purchase_return"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 152,
+        "fields": {
+            "name": "Can view purchase_return",
+            "content_type": 38,
+            "codename": "view_purchase_return"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 153,
+        "fields": {
+            "name": "Can add purchase_return_items",
+            "content_type": 39,
+            "codename": "add_purchase_return_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 154,
+        "fields": {
+            "name": "Can change purchase_return_items",
+            "content_type": 39,
+            "codename": "change_purchase_return_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 155,
+        "fields": {
+            "name": "Can delete purchase_return_items",
+            "content_type": 39,
+            "codename": "delete_purchase_return_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 156,
+        "fields": {
+            "name": "Can view purchase_return_items",
+            "content_type": 39,
+            "codename": "view_purchase_return_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 157,
+        "fields": {
+            "name": "Can add purchase_request_items",
+            "content_type": 40,
+            "codename": "add_purchase_request_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 158,
+        "fields": {
+            "name": "Can change purchase_request_items",
+            "content_type": 40,
+            "codename": "change_purchase_request_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 159,
+        "fields": {
+            "name": "Can delete purchase_request_items",
+            "content_type": 40,
+            "codename": "delete_purchase_request_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 160,
+        "fields": {
+            "name": "Can view purchase_request_items",
+            "content_type": 40,
+            "codename": "view_purchase_request_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 161,
+        "fields": {
+            "name": "Can add purchase_order",
+            "content_type": 41,
+            "codename": "add_purchase_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 162,
+        "fields": {
+            "name": "Can change purchase_order",
+            "content_type": 41,
+            "codename": "change_purchase_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 163,
+        "fields": {
+            "name": "Can delete purchase_order",
+            "content_type": 41,
+            "codename": "delete_purchase_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 164,
+        "fields": {
+            "name": "Can view purchase_order",
+            "content_type": 41,
+            "codename": "view_purchase_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 165,
+        "fields": {
+            "name": "Can add purchase_inquiry_items",
+            "content_type": 42,
+            "codename": "add_purchase_inquiry_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 166,
+        "fields": {
+            "name": "Can change purchase_inquiry_items",
+            "content_type": 42,
+            "codename": "change_purchase_inquiry_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 167,
+        "fields": {
+            "name": "Can delete purchase_inquiry_items",
+            "content_type": 42,
+            "codename": "delete_purchase_inquiry_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 168,
+        "fields": {
+            "name": "Can view purchase_inquiry_items",
+            "content_type": 42,
+            "codename": "view_purchase_inquiry_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 169,
+        "fields": {
+            "name": "Can add po_items",
+            "content_type": 43,
+            "codename": "add_po_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 170,
+        "fields": {
+            "name": "Can change po_items",
+            "content_type": 43,
+            "codename": "change_po_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 171,
+        "fields": {
+            "name": "Can delete po_items",
+            "content_type": 43,
+            "codename": "delete_po_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 172,
+        "fields": {
+            "name": "Can view po_items",
+            "content_type": 43,
+            "codename": "view_po_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 173,
+        "fields": {
+            "name": "Can add sales_order",
+            "content_type": 44,
+            "codename": "add_sales_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 174,
+        "fields": {
+            "name": "Can change sales_order",
+            "content_type": 44,
+            "codename": "change_sales_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 175,
+        "fields": {
+            "name": "Can delete sales_order",
+            "content_type": 44,
+            "codename": "delete_sales_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 176,
+        "fields": {
+            "name": "Can view sales_order",
+            "content_type": 44,
+            "codename": "view_sales_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 177,
+        "fields": {
+            "name": "Can add sales_order_items",
+            "content_type": 45,
+            "codename": "add_sales_order_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 178,
+        "fields": {
+            "name": "Can change sales_order_items",
+            "content_type": 45,
+            "codename": "change_sales_order_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 179,
+        "fields": {
+            "name": "Can delete sales_order_items",
+            "content_type": 45,
+            "codename": "delete_sales_order_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 180,
+        "fields": {
+            "name": "Can view sales_order_items",
+            "content_type": 45,
+            "codename": "view_sales_order_items"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 181,
+        "fields": {
+            "name": "Can add sales_invoice",
+            "content_type": 46,
+            "codename": "add_sales_invoice"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 182,
+        "fields": {
+            "name": "Can change sales_invoice",
+            "content_type": 46,
+            "codename": "change_sales_invoice"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 183,
+        "fields": {
+            "name": "Can delete sales_invoice",
+            "content_type": 46,
+            "codename": "delete_sales_invoice"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 184,
+        "fields": {
+            "name": "Can view sales_invoice",
+            "content_type": 46,
+            "codename": "view_sales_invoice"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 185,
+        "fields": {
+            "name": "Can add returned_goods",
+            "content_type": 47,
+            "codename": "add_returned_goods"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 186,
+        "fields": {
+            "name": "Can change returned_goods",
+            "content_type": 47,
+            "codename": "change_returned_goods"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 187,
+        "fields": {
+            "name": "Can delete returned_goods",
+            "content_type": 47,
+            "codename": "delete_returned_goods"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 188,
+        "fields": {
+            "name": "Can view returned_goods",
+            "content_type": 47,
+            "codename": "view_returned_goods"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 189,
+        "fields": {
+            "name": "Can add delivery_note",
+            "content_type": 48,
+            "codename": "add_delivery_note"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 190,
+        "fields": {
+            "name": "Can change delivery_note",
+            "content_type": 48,
+            "codename": "change_delivery_note"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 191,
+        "fields": {
+            "name": "Can delete delivery_note",
+            "content_type": 48,
+            "codename": "delete_delivery_note"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 192,
+        "fields": {
+            "name": "Can view delivery_note",
+            "content_type": 48,
+            "codename": "view_delivery_note"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "authtoken",
+            "model": "token"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "authtoken",
+            "model": "tokenproxy"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "accounts",
+            "model": "department"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "accounts",
+            "model": "userrole"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "accounts",
+            "model": "sub_division"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "accounts",
+            "model": "branch"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "accounts",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 13,
+        "fields": {
+            "app_label": "data_management",
+            "model": "country"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 14,
+        "fields": {
+            "app_label": "data_management",
+            "model": "currency"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 15,
+        "fields": {
+            "app_label": "data_management",
+            "model": "measuredunits"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 16,
+        "fields": {
+            "app_label": "data_management",
+            "model": "partytype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 17,
+        "fields": {
+            "app_label": "data_management",
+            "model": "product"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 18,
+        "fields": {
+            "app_label": "data_management",
+            "model": "productionphases"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 19,
+        "fields": {
+            "app_label": "data_management",
+            "model": "state"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 20,
+        "fields": {
+            "app_label": "data_management",
+            "model": "rawmaterials"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 21,
+        "fields": {
+            "app_label": "data_management",
+            "model": "productivity"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 22,
+        "fields": {
+            "app_label": "data_management",
+            "model": "productionflow"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 23,
+        "fields": {
+            "app_label": "data_management",
+            "model": "parties"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 24,
+        "fields": {
+            "app_label": "data_management",
+            "model": "billofmaterials"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 25,
+        "fields": {
+            "app_label": "inventory_management",
+            "model": "productionorder"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 26,
+        "fields": {
+            "app_label": "inventory_management",
+            "model": "transfer_request_type"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 27,
+        "fields": {
+            "app_label": "inventory_management",
+            "model": "vehicle_deatails"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 28,
+        "fields": {
+            "app_label": "inventory_management",
+            "model": "wip"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 29,
+        "fields": {
+            "app_label": "inventory_management",
+            "model": "transfer_requests"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 30,
+        "fields": {
+            "app_label": "inventory_management",
+            "model": "scrap_management"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 31,
+        "fields": {
+            "app_label": "inventory_management",
+            "model": "productivity_mgmt"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 32,
+        "fields": {
+            "app_label": "inventory_management",
+            "model": "inventory_rawmaterial"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 33,
+        "fields": {
+            "app_label": "inventory_management",
+            "model": "inventory_product"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 34,
+        "fields": {
+            "app_label": "purchase_management",
+            "model": "grn"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 35,
+        "fields": {
+            "app_label": "purchase_management",
+            "model": "grn_items"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 36,
+        "fields": {
+            "app_label": "purchase_management",
+            "model": "purchase_inquiry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 37,
+        "fields": {
+            "app_label": "purchase_management",
+            "model": "purchase_request"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 38,
+        "fields": {
+            "app_label": "purchase_management",
+            "model": "purchase_return"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 39,
+        "fields": {
+            "app_label": "purchase_management",
+            "model": "purchase_return_items"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 40,
+        "fields": {
+            "app_label": "purchase_management",
+            "model": "purchase_request_items"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 41,
+        "fields": {
+            "app_label": "purchase_management",
+            "model": "purchase_order"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 42,
+        "fields": {
+            "app_label": "purchase_management",
+            "model": "purchase_inquiry_items"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 43,
+        "fields": {
+            "app_label": "purchase_management",
+            "model": "po_items"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 44,
+        "fields": {
+            "app_label": "sales_management",
+            "model": "sales_order"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 45,
+        "fields": {
+            "app_label": "sales_management",
+            "model": "sales_order_items"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 46,
+        "fields": {
+            "app_label": "sales_management",
+            "model": "sales_invoice"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 47,
+        "fields": {
+            "app_label": "sales_management",
+            "model": "returned_goods"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 48,
+        "fields": {
+            "app_label": "sales_management",
+            "model": "delivery_note"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "csanisdjs6jl1bi7rujrq2q92b2qshte",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf9l1oYA8nTp3m8gwwBSNZCUdmX8d9ukC93ec859Q8B1qWEdeQ5TggsIOP1uEemZ2w7SA9u9M-ptmafIdoUddLBbT_l1Pdy_g4qjbjXXvqiCUhIJQeRtEdZKxQ3pWKxxOttCnidJeBYeeVTkovZmi6ROzsDnC-IoN98:1pXyVx:tMugT7xC78CTi8sDrMOC-Yzz2j_M5T83_QP125D5trU",
+            "expire_date": "2023-03-17T06:03:33.578Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "ij5qx3izl760q63bp7lj32af5mj8ycfz",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf9l1oYA8nTp3m8gwwBSNZCUdmX8d9ukC93ec859Q8B1qWEdeQ5TggsIOP1uEemZ2w7SA9u9M-ptmafIdoUddLBbT_l1Pdy_g4qjbjXXvqiCUhIJQeRtEdZKxQ3pWKxxOttCnidJeBYeeVTkovZmi6ROzsDnC-IoN98:1pXyAS:zyQR3ImYQyUYwWhlpopZsz5xUkaBVkSDL50rJApQ_xs",
+            "expire_date": "2023-03-17T05:41:20.186Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "k49t5bgj3yj5f2zwvu6fxuei9b9ieb7z",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf9l1oYA8nTp3m8gwwBSNZCUdmX8d9ukC93ec859Q8B1qWEdeQ5TggsIOP1uEemZ2w7SA9u9M-ptmafIdoUddLBbT_l1Pdy_g4qjbjXXvqiCUhIJQeRtEdZKxQ3pWKxxOttCnidJeBYeeVTkovZmi6ROzsDnC-IoN98:1pXy3c:9qJrG07n_mbFqlAPo5w3Jr7EWgFvsfd4UuSE5Tn2wsw",
+            "expire_date": "2023-03-17T05:34:16.023Z"
+        }
+    },
+    {
+        "model": "accounts.branch",
+        "pk": 1,
+        "fields": {
+            "cityname": "CHENNAI",
+            "state": "33 TN",
+            "country": "+91",
+            "pincode": 600095,
+            "GST_Number": "33AAICS8653G1Z4",
+            "branch_code": "7246bc",
+            "branch_name": "vadaperumbakkam",
+            "address": "CHENNAI"
+        }
+    },
+    {
+        "model": "accounts.branch",
+        "pk": 2,
+        "fields": {
+            "cityname": "chennai",
+            "state": "33 TN",
+            "country": "+91",
+            "pincode": 600095,
+            "GST_Number": "33AAICS86853G1Z4",
+            "branch_code": "5c47cb",
+            "branch_name": "vysarpadi",
+            "address": "vysarpadi,chennai"
+        }
+    },
+    {
+        "model": "accounts.department",
+        "pk": 2,
+        "fields": {
+            "name": "PRODUCTION DEPARTMENT",
+            "role": "PRODUCTION PLANNING AND CONTROL"
+        }
+    },
+    {
+        "model": "accounts.department",
+        "pk": 3,
+        "fields": {
+            "name": "PURCHASE DEPARTMENT",
+            "role": "PURCHASE OF RAW MATERIAL ACCESSORIESTOOLS & SPARES"
+        }
+    },
+    {
+        "model": "accounts.department",
+        "pk": 4,
+        "fields": {
+            "name": "STORES DEPARTMENT",
+            "role": "STACKING OF GOODS FINISHED ORK ITEM FOLLOW UP"
+        }
+    },
+    {
+        "model": "accounts.department",
+        "pk": 5,
+        "fields": {
+            "name": "QUALITY DEPARTMENT",
+            "role": "INWARD AND LINE QUALITY"
+        }
+    },
+    {
+        "model": "accounts.department",
+        "pk": 6,
+        "fields": {
+            "name": "POLISH DEPARTMENT",
+            "role": "POLISH PLANNING AND EXECUTION"
+        }
+    },
+    {
+        "model": "accounts.department",
+        "pk": 7,
+        "fields": {
+            "name": "EMERY DEPARTMENT",
+            "role": "EMERY PLANNING AND EXECUTION"
+        }
+    },
+    {
+        "model": "accounts.department",
+        "pk": 8,
+        "fields": {
+            "name": "PACKING DEPARTMENT",
+            "role": "PACKING PLAN & EXECUTION"
+        }
+    },
+    {
+        "model": "accounts.department",
+        "pk": 9,
+        "fields": {
+            "name": "DISPATCH DEPARTMENT",
+            "role": "DISPATCH PLANNING AND EXECUTION"
+        }
+    },
+    {
+        "model": "accounts.department",
+        "pk": 10,
+        "fields": {
+            "name": "MARKETING DEPARTMENT",
+            "role": "ORDER TAKING AND PROJECTION"
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": "1",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$flzAbRBq2df0dAqj8MYttI$jo1vE31P8wNNEY01jpCsXqfMgHTQ/vdeDCIvmGUWqM8=",
+            "last_login": "2023-03-03T06:03:33.371Z",
+            "email": null,
+            "name": "samrat",
+            "phone": null,
+            "department": null,
+            "department_subdivision": null,
+            "role": null,
+            "is_superuser": true,
+            "reset_password": true,
+            "branch": null,
+            "created_at": "2023-03-03T05:34:00.150Z"
+        }
+    },
+    {
+        "model": "data_management.currency",
+        "pk": "INR",
+        "fields": {
+            "currency_name": "rupees"
+        }
+    },
+    {
+        "model": "data_management.currency",
+        "pk": "USD",
+        "fields": {
+            "currency_name": "doller"
+        }
+    },
+    {
+        "model": "data_management.partytype",
+        "pk": 1,
+        "fields": {
+            "party_type": "accessories supply"
+        }
+    },
+    {
+        "model": "data_management.partytype",
+        "pk": 2,
+        "fields": {
+            "party_type": "raw material supply"
+        }
+    },
+    {
+        "model": "data_management.country",
+        "pk": "+91",
+        "fields": {
+            "country_name": "india"
+        }
+    },
+    {
+        "model": "data_management.state",
+        "pk": "33 TN",
+        "fields": {
+            "state_name": "TAMIL NADU",
+            "GST_code": null
+        }
+    },
+    {
+        "model": "data_management.parties",
+        "pk": 1,
+        "fields": {
+            "party_type": "accessories supply",
+            "party_country": "+91",
+            "party_name": "ANANDHA MOULDERS",
+            "party_address": "PLOT NO-78, GOVERNMENT INDUSTRIAL ESTATE,KHADOLI",
+            "party_state": "33 TN",
+            "party_pincode": 600079,
+            "party_GSTIN": "26ABJFA7915Q1ZS",
+            "party_products": {
+                "0": {
+                    "product": "TRIPLY PRESSURE COOKER - SUMO",
+                    "unit_price": "100"
+                }
+            },
+            "party_contact_name": "kenedy",
+            "party_contact_no": "91-9320027129",
+            "party_email": "ananthamoulders@gmail.com"
+        }
+    },
+    {
+        "model": "data_management.parties",
+        "pk": 2,
+        "fields": {
+            "party_type": "raw material supply",
+            "party_country": "+91",
+            "party_name": "SIDARTH STEEL",
+            "party_address": "PLOT NO-78, GOVERNMENT INDUSTRIAL ESTATE,KHADOLI",
+            "party_state": "33 TN",
+            "party_pincode": 600079,
+            "party_GSTIN": "26ABJFA7915Q1ZS",
+            "party_products": {
+                "0": {
+                    "product": "TRIPLY PRESSURE COOKER - SUMO",
+                    "unit_price": "500"
+                }
+            },
+            "party_contact_name": "RAHUL CHAJJED",
+            "party_contact_no": "91-9841532111",
+            "party_email": "sidharthsteels14@gmail.com"
+        }
+    },
+    {
+        "model": "data_management.productionphases",
+        "pk": 1,
+        "fields": {
+            "phase_name": "bottom pressing"
+        }
+    },
+    {
+        "model": "data_management.productionphases",
+        "pk": 2,
+        "fields": {
+            "phase_name": "rim cutting"
+        }
+    },
+    {
+        "model": "data_management.productionphases",
+        "pk": 3,
+        "fields": {
+            "phase_name": "first polishing"
+        }
+    },
+    {
+        "model": "data_management.productionphases",
+        "pk": 4,
+        "fields": {
+            "phase_name": "polish inspection"
+        }
+    },
+    {
+        "model": "data_management.productionphases",
+        "pk": 5,
+        "fields": {
+            "phase_name": "bracket spot & welding"
+        }
+    },
+    {
+        "model": "data_management.productionphases",
+        "pk": 6,
+        "fields": {
+            "phase_name": "outer bottom & inner emery"
+        }
+    },
+    {
+        "model": "data_management.productionphases",
+        "pk": 7,
+        "fields": {
+            "phase_name": "emery inspection"
+        }
+    },
+    {
+        "model": "data_management.productionphases",
+        "pk": 8,
+        "fields": {
+            "phase_name": "bottom repolish & inspection"
+        }
+    },
+    {
+        "model": "data_management.product",
+        "pk": "FG10070",
+        "fields": {
+            "product_name": "TRIPLY PRESSURE COOKER - SUMO",
+            "product_type": "finished",
+            "min_stock": 100,
+            "maximum_price": 3280,
+            "minimum_price": 500,
+            "currency": null,
+            "multiple_parts": true,
+            "parts": "[\"BOTTOM\"]"
+        }
+    },
+    {
+        "model": "data_management.productionflow",
+        "pk": 1,
+        "fields": {
+            "product_code": "FG10070",
+            "part_name": "BOTTOM",
+            "phases": {}
+        }
+    }
+]

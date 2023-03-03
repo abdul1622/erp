@@ -15,8 +15,7 @@ from django.contrib.auth.management.commands import createsuperuser
 
 class Branch(models.Model):
     id = models.AutoField(primary_key=True)
-    cityname = models.CharField(
-        unique=True, max_length=50, null=True, blank=True)
+    cityname = models.CharField( max_length=50, null=True, blank=True)
     state = models.CharField(max_length=30, default='TamilNadu')
     country = models.ForeignKey(
         Country, on_delete=models.SET_NULL, null=True, blank=True)
@@ -40,7 +39,7 @@ class Branch(models.Model):
 class Department(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(unique=True, max_length=50)
-    role = models.CharField(max_length=50, null=True, blank=True)
+    role = models.CharField(max_length=100, null=True, blank=True)
 
     def __str__(self):
         return self.name

@@ -83,7 +83,7 @@ if(id == null &&model_name=='product' && 'multiple_parts' in data == false){
             for (const [key, value] of Object.entries(data.data)) {
                 error += `<p class='text-danger'> ${key} : ${value[0]} </p>`
             }
-            document.querySelector('.messages').innerHTML  = error
+            document.querySelector('.error-messages').innerHTML  = error
            //  document.querySelector('.model-messages').innerHTML = error
         }
    }) 

@@ -162,19 +162,19 @@ form_data = {
     'product':{
         'product_code':{
             'required':true,
-            'label':'product_code',
+            'label':'Product Code',
             'input':'input',
             'type':'text'
         },
         'product_name':{
             'required':true,
-            'label':'product_name',
+            'label':'Product Name',
             'input':'input',
             'type':'text'
         },
         'product_type':{
             'required':true,
-            'label':'product type',
+            'label':'Product Type',
             'input':'select',
             'options':['finished','semi-finished']
         },
@@ -186,21 +186,21 @@ form_data = {
         // },
         'maximum_price':{
             'required':true,
-            'label':'maximum price',
+            'label':'Maximum Price',
             'currency':true,
             'input':'input',
             'type':'number'
         },
         'minimum_price':{
             'required':true,
-            'label':'minimum price',
+            'label':'Minimum Price',
             'currency':true,
             'input':'input',
             'type':'number'
         },
         'currency':{
             'required':true,
-            'label':'currency',
+            'label':'Currency',
             'input':'select',
             'oninput':'currency_change(this)',
             'table':'currency',
@@ -208,7 +208,7 @@ form_data = {
         },
         'multiple_parts':{
             'required':true,
-            'label':'multiple parts',
+            'label':'Multiple Parts',
             'oninput':'get_multipart(this)',
             'input':'input',
             'type':'checkbox'
@@ -226,13 +226,13 @@ form_data = {
     'rawmaterial':{
         'rm_code':{
             'required':true,
-            'label':'RM code',
+            'label':'RM Code',
             'input':'input',
             'type':'text'            
         },
         'rm_name':{
             'required':true,
-            'label':'Raw material',
+            'label':'Raw Material',
             'input':'input',
             'type':'text'            
         },
@@ -245,7 +245,7 @@ form_data = {
         },
         'min_stock':{
             'required':true,
-            'label':'Min stock',
+            'label':'Min Stock',
             'input':'input',
             'type':'number'
         },
@@ -266,7 +266,7 @@ form_data = {
         },       
          'preferred_supplier':{
             'required':true,
-            'label':'supplier',
+            'label':'Supplier',
             'input':'select',
             'table':'parties',
             'list':true,
@@ -323,7 +323,7 @@ form_data = {
         },
         'party_state':{
             'required':true,
-            'label':'state',
+            'label':'State',
             'input':'select',
             'table':'state',
             'name':'state_name',
@@ -344,7 +344,7 @@ form_data = {
    
         'party_products':{
             'required':true,
-            'label':'product',
+            'label':'Product',
             'field':'json',
             'subfields':{
                 'product':{
@@ -366,7 +366,7 @@ form_data = {
     'partytype':{
         'party_type':{
             'required':true,
-            'label':'party type',
+            'label':'Party Type',
             'input':'input',
             'type':'text'
         }
@@ -504,13 +504,13 @@ form_data = {
     'currency':{
         'currency_code':{
             'required':true,
-            'label':'currency code',
+            'label':'Currency Code',
             'input':'input',
             'type':'text'
         },
         'currency_name':{
             'required':true,
-            'label':'currency name',
+            'label':'Currency Name',
             'input':'input',
             'type':'text'
         }
@@ -533,7 +533,7 @@ form_data = {
         'product_data':{
             'product_type':{
                 'required':true,
-                'label':'Product type',
+                'label':'Product Type',
                 'input':'select',
                 'options':['finished','semi-finished']
             },
@@ -575,8 +575,7 @@ form_data = {
                 'label':'Scrap',
                 'input':'input',
                 'type':'text'
-            },
-            
+            },      
         }
     }
 }

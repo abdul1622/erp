@@ -181,3 +181,22 @@ h3 {
     font-size: 15px;
     margin-top: 5%;
 }
+
+
+@media screen and (max-width: 1400px) {
+    #id_tag {
+        margin-top: 0;
+    }
+
+    .sign-in-heading {
+        margin-bottom: 6%;
+    }
+
+    .sign_in input {
+        margin: 2% 0% 3%;
+    }
+
+    .sign-in-footer {
+        top: 86%;
+    }
+}

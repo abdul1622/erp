@@ -231,7 +231,7 @@ class Productivity(models.Model):
         Product, on_delete=models.SET_NULL, null=True, blank=True)
     part_name = models.CharField(max_length=50, null=True, blank=True)
     quantity_perday = models.PositiveIntegerField()
-    scrap_quantity = models.PositiveIntegerField()
+    scrap_quantity = models.CharField(max_length=30, null=True, blank=True)
 
     def __str__(self) -> str:
         return str(self.quantity_perday)
