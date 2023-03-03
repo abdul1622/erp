@@ -114,7 +114,7 @@ if(element.value){
 }
 
 function model_form_get(){
-
+    document.querySelector('.error-messages').innerHTML = ''
     document.getElementById('dm-filter').style.display = 'block'
     let content = ''
     fetch(get_url,
@@ -157,6 +157,7 @@ function model_form_get(){
 function create_form(){
 
     return new Promise((resolve)=>{
+        document.querySelector('.error-messages').innerHTML = ''
         document.querySelector('.dm-add-button-div').innerHTML = ''
         model_container.innerHTML = ''
         let content = ''

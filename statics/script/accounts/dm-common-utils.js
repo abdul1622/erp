@@ -44,7 +44,7 @@ if(id == null &&model_name=='product' && 'multiple_parts' in data == false){
    let method = 'POST'
    let dm_url = get_url
    let result = 'created'
-   if(model_name=='user'){
+   if(model_name=='user' && !id){
     dm_url = `${host_main}/api/signup/`
    }
    if(id){
