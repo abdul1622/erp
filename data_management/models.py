@@ -180,7 +180,7 @@ class BillOfMaterials(models.Model):
     rm_serial_no = models.IntegerField(unique=True, null=True, blank=True)
     rm_type = models.CharField(
         max_length=20, choices=rm_type_choices, default='rawmaterial')
-    rm_code = models.IntegerField(null=True, blank=True)
+    rm_code = models.CharField(max_length=50,null=True, blank=True)
     rm_name = models.CharField(max_length=50)
     rm_quantity = models.IntegerField(null=True, blank=True)
     production_phase = models.ForeignKey(
